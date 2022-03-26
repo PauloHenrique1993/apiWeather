@@ -25,7 +25,7 @@ def state(state):
 
     return json.loads(req.content)
 
-@app.route("/coordinates/<string:lat>/<string:lon>")
+@app.route("/coordinates/<int:lat>/<int:lon>") # /coordinates/-23.5475/-46.6361
 def coordinates(lat,lon):
 
     url = f"http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={getenv('key')}&units=metric&lang=pt_br"
