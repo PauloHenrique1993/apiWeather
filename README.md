@@ -10,5 +10,5 @@
 ### state </br>
 #### /state/sao paulo
 
-### coordinates </br>
+### coordinates (lat/lon)</br>
 #### /coordinates/-23.5475/-46.6361
